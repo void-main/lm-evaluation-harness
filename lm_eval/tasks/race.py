@@ -37,7 +37,8 @@ class each:
 class RACE(Task):
     VERSION = 1
     DATASET_PATH = "race"
-    DATASET_NAME = "high"
+    # DATASET_NAME = "high"
+    DATASET_NAME = "middle"
 
     cache = {}
     letter_to_num = {"A": 0, "B": 1, "C": 2, "D": 3}
